@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class CountVowels {
     public static void main(String[] args) {
-        String str = "Hello World";
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a word or a sentence: ");
+        String str = sc.nextLine();
         int count = 0;
 
         str = str.toLowerCase();
